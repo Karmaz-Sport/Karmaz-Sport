@@ -3,6 +3,7 @@
 Hello Everybody!!
 Oscar Penagos
 Santiago Janacet
+Daniel Serrato Rios
 <!--
 **Karmaz-Sport/Karmaz-Sport** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
