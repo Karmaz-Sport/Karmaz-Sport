@@ -20,7 +20,7 @@ const NavBar = () => {
     <Navbar bg="dark" variant="dark">
                 <div className='col-12 col-md-3'>
                     <div className='navbar-brand'>
-                        <img src="" alt="Karmz-Sport"></img>
+                        <img src="" alt="Karmaz-Sport"></img>
                     </div>
                 </div>
 
