@@ -4,17 +4,18 @@ import NavBar from './components/layout/navbar';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Productos from './components/productos';
 import Footer from './components/layout/Footer';
+import Carrito from './components/carrito/carrito';
+import Editar from './components/admin/editar';
 
 
 function App() {
   return (
-
+    <div className="Tienda">
      
-      <div className="Tienda">
-        <NavBar/>
-        <h2>Popular ahora</h2>
-        <Productos/>
-        <Footer/>
+     
+       
+       <Editar/>
+      
     
         
     

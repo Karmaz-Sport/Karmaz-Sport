@@ -124,3 +124,9 @@ function Productos() {
     }
     
 export default Productos;
+
+
+/*<NavBar/>
+        <h2>Popular ahora</h2>
+        <Productos/>
+        <Footer/>*/
