@@ -1,0 +1,64 @@
+#login_btn{
+    background: #fff; /* color de fondo */
+    color:  #1728bee3; /* color de fuente */
+    border: 2px solid  #1728bee3; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+   
+  }
+  #login_btn:hover {
+    color: #fff; /* color de fuente hover */
+  }
+  #login_btn::after {
+    content: "";
+    background: #3F0071; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: 0;
+    right: 0;
+    top: -100%;
+    bottom: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    
+}
+
+
+#login_btn:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+
+#login_btn2{
+    width: 155px; 
+    margin-top: 0px;
+    font-size: 18px; 
+    color: white; 
+    border-radius: 30px; 
+    background-image: linear-gradient(to right, #3367f5  0%, #3367f5 100%);
+    border: none;
+}
+
+
+#decoracion{
+    border-color: #9dff00;
+}
+
+.precio{
+  text-align: right;
+  position: relative;
+  top:-40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
